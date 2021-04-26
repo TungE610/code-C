@@ -2,7 +2,7 @@
 #include<stdlib.h>>
 
 int main(){
-	/*Bài 6.1*/
+	/*BÃ i 6.1*/
 	int i;
 	char x;
 	char se[100];
@@ -16,8 +16,8 @@ for(i=1;i<n;i++){
 	x=se[i];
 	}}
 	printf("%c",x);
-	/*Bài 6.2*/
-	/*Bài 6.3*/
+	/*BÃ i 6.2*/
+	/*BÃ i 6.3*/
 	int a;
 	printf("\nEnter the age:");
 		scanf("%d",&a);
@@ -35,7 +35,7 @@ for(i=1;i<n;i++){
 		  	printf("Your class is senior Citizen");
 		  }
 	  }
-	/*Bài 6.4*/
+	/*BÃ i 6.4*/
 		int b;
 		char class[20];
 	printf("\nEnter the age:");
@@ -46,7 +46,7 @@ for(i=1;i<n;i++){
   class = (b<18)?  "child":" Adult";
   class = (b<65)? " Adult":"SeniorCitizen";
   printf("%s",class);
-  	/*Bài 6.5*/
+  	/*BÃ i 6.5*/
   	int m;
   	printf("Guess your positive number:");
   	scanf("%d",&m);
@@ -62,7 +62,7 @@ for(i=1;i<n;i++){
 			  }
 			  }
 			  printf("\nThe correct number is:%d",z);
-		  /*Bài 6.6*/
+		  /*BÃ i 6.6*/
 		  int j,k,l;
 		  printf("enter 3 integer numbers (j,k,l): ");
 		  
@@ -78,7 +78,7 @@ for(i=1;i<n;i++){
 		 }
 		 if(j==l&&k==l){
 		 	printf("No smallest");}
-		 	/*Bài 6.7*/
+		 	/*BÃ i 6.7*/
 		 	int y;
 		 	printf("Enter your age:" );
 		 	scanf("%d,&y);
@@ -88,6 +88,34 @@ for(i=1;i<n;i++){
   switch(y){
   case 
   }
+			      int year;
+printf("Enter the year:");
+scanf("%d",&year);
+if(year%4==0&&year%400!=0){
+	int month;
+printf("Enter the month:");
+scanf("%d",&month);
+char flag1[100];
+if(month==1||month==3||month==5||month==7||month==8||month==10||month==12){
+flag1="write";}
+else{if(month==2){
+flag1="yellow";
+}else{
+flag1="black";
+}}
+switch(flag1)
+	case 'write':
+		printf("The number of days:31");
+		break;
+	case 'yellow':
+		printf("The number of days:28");
+		break;
+    case 'black':
+		printf("The number of days:30");
+		break;
+	
+	
+}}
 	return 0;
 	
 	}
