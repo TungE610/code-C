@@ -17,6 +17,22 @@ for(i=1;i<n;i++){
 	}}
 	printf("%c",x);
 	/*Bài 6.2*/
+	float de;
+    printf("Enter heading in degrees: ");
+    scanf("%f",&de);
+    if(0<=de&&de<90){
+        printf("BEARING COMPUTATION: north (heading) east\n");
+    }
+    if(90<=de&&de<180){
+        printf("south (180.0 -heading) east \n");
+    }
+    if(180<=de&&de<270){
+        printf("south (heading -180.0) west\n");
+    }
+    if(270<=de&&de<360){
+        printf("north (360.0 - heading) west\n ");
+    }
+    
 	/*Bài 6.3*/
 	int a;
 	printf("\nEnter the age:");
@@ -116,6 +132,21 @@ switch(flag1)
 	
 	
 }}
+			      
+			      /*Bài 6.6------------------------*/
+int x1,x2,x3;
+    printf("enter x1,x2,x3: ");
+    scanf("%d%d%d",&x1,&x2,&x3);
+    if(x1<=x2&&x1<=x3){
+        printf("the smallest :%d\n",x1);
+    }
+    if(x2<=x3&&x2<=x1){
+        printf("the smallest :%d\n",x2);
+    }
+    if(x3<=x2&&x3<=x1){
+        printf("the smallest :%d\n",x3);
+    }
+    
 	return 0;
 	
 	}
