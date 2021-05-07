@@ -6,6 +6,25 @@ int main(){
     printf("enter the distance in kilometer: ");
     scanf("%f",&l);
     printf("\nthe distance in the mile : %5.3f\n",(float)0.6214*l);
+ /*Bài 5.2 */
+ int x1,x2,x3;
+ printf("enter 3 numbers x1 x2 x3: ");
+ scanf("%d%d%d",&a,&b,&c);
+ if(x1-x2==x2-x3){
+ printf("x1=x3\n");
+  
+ }
+ if(a<=b&&a<=c){
+ printf("a is the smallest!\n");
+ }
+ /*Bài 5.3*/
+ 
+ 
+ /*BÀi 5.4*/
+  int h =INT_MAX;
+    printf("%d\n",h);
+    printf("When integer overflow that occurs : %d\n",h+2);
+    
 /*Bài 5.5*/
     double a,b;
     printf("Enter two numbers : ");
