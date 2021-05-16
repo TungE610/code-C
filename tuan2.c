@@ -10,10 +10,14 @@
 int main(){
     printf("welcome to C\n");
     printf("Programing Introduction.\n");
+        ------------------------------------------------------
+
     /*2.5*/
     printf("My name is Bui Tung\n");
     printf("Nice to meet you\n");
     printf("Hope you will have happy time \n");
+        ------------------------------------------------------
+
     /*2.6*/
     double r, c, ac, as, v;
     r = 5.678;
@@ -26,10 +30,15 @@ int main(){
     printf("Sphere's area = %f\n", as);
     v = 4.0/3.0 * PI * r * r * r;
     printf("Sphere's volume = %f\n", v);
+        ------------------------------------------------------
+
     /*2.7*/
     printf("The name of person who sitting next to me:\n ");
     printf("Le Quang Nghia\n");
+    ------------------------------------------------------
     /*Bài toán loại bỏ phần tử bị trùng trong dãy mà vẫn giũ nguyên thứ tự*/
+        #include <stdio.h>
+        int main(){
     int i, j, n, k, dem = 0;
     float a[100];
         printf("nhap so phan tu cua mang:");
@@ -64,7 +73,12 @@ int main(){
         {
             printf(" %0.2f ", a[i]);
         }
+        return 0;}
+        ------------------------------------------------------
+
     /*Bài toán tim max cua 3 so*/
+            #include <stdio.h>
+            int main(){
     float x,y,z,max;
     printf("Nhap 3 so x,y,z");
     scanf("%f%f%f",&x,&y,&z);
