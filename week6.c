@@ -64,7 +64,7 @@ int main(){
 		  	printf("Your class is senior Citizen");
 		  }
 	  }
-	return 0;
+	return 0;}
 	---------------------------------------------------------
 
 	/*Bài 6.4*/
@@ -88,7 +88,8 @@ int main(){
 
   	/*Bài 6.5*/
 	#include<stdio.h>
-#include<stdlib.h>
+	#include<stdlib.h>
+	#include<math.h>
 
 int main(){
   	int m;
@@ -111,7 +112,8 @@ int main(){
 
 		  /*Bài 6.6*/
 	#include<stdio.h>
-#include<stdlib.h>
+	#include<stdlib.h>
+	#include<math.h>
 
        int main(){
 		  int j,k,l;
@@ -136,6 +138,7 @@ int main(){
 
 		#include<stdio.h>
                 #include<stdlib.h>
+  		#include<math.h>
 
 int main(){
 		 	int y;
@@ -175,9 +178,14 @@ switch(flag1)
 	
 	
 }}
-			      return 0;
+			      return 0;}
 			      
 			      /*Bài 6.6------------------------*/
+			      #include<stdio.h>
+                              #include<stdlib.h>
+			      #include<math.h>
+
+int main(){
 int x1,x2,x3;
     printf("enter x1,x2,x3: ");
     scanf("%d%d%d",&x1,&x2,&x3);
