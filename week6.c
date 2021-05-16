@@ -16,7 +16,14 @@ for(i=1;i<n;i++){
 	x=se[i];
 	}}
 	printf("%c",x);
+	return 0;}
+---------------------------------------------------------
+
 	/*Bài 6.2*/
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
 	float de;
     printf("Enter heading in degrees: ");
     scanf("%f",&de);
@@ -32,8 +39,14 @@ for(i=1;i<n;i++){
     if(270<=de&&de<360){
         printf("north (360.0 - heading) west\n ");
     }
-    
+    return 0;}
+---------------------------------------------------------
+
 	/*Bài 6.3*/
+	#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
 	int a;
 	printf("\nEnter the age:");
 		scanf("%d",&a);
@@ -51,7 +64,14 @@ for(i=1;i<n;i++){
 		  	printf("Your class is senior Citizen");
 		  }
 	  }
+	return 0;
+	---------------------------------------------------------
+
 	/*Bài 6.4*/
+	#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
 		int b;
 		char class[20];
 	printf("\nEnter the age:");
@@ -62,7 +82,15 @@ for(i=1;i<n;i++){
   class = (b<18)?  "child":" Adult";
   class = (b<65)? " Adult":"SeniorCitizen";
   printf("%s",class);
+	return 0;
+}
+	---------------------------------------------------------
+
   	/*Bài 6.5*/
+	#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
   	int m;
   	printf("Guess your positive number:");
   	scanf("%d",&m);
@@ -78,7 +106,14 @@ for(i=1;i<n;i++){
 			  }
 			  }
 			  printf("\nThe correct number is:%d",z);
+	return 0;}
+	---------------------------------------------------------
+
 		  /*Bài 6.6*/
+	#include<stdio.h>
+#include<stdlib.h>
+
+       int main(){
 		  int j,k,l;
 		  printf("enter 3 integer numbers (j,k,l): ");
 		  
@@ -94,7 +129,15 @@ for(i=1;i<n;i++){
 		 }
 		 if(j==l&&k==l){
 		 	printf("No smallest");}
-		 	/*Bài 6.7*/
+	       return 0;}
+	
+---------------------------------------------------------
+	/*Bài 6.7*/
+
+		#include<stdio.h>
+                #include<stdlib.h>
+
+int main(){
 		 	int y;
 		 	printf("Enter your age:" );
 		 	scanf("%d,&y);
@@ -132,6 +175,7 @@ switch(flag1)
 	
 	
 }}
+			      return 0;
 			      
 			      /*Bài 6.6------------------------*/
 int x1,x2,x3;
