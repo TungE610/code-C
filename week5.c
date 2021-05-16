@@ -6,7 +6,12 @@ int main(){
     printf("enter the distance in kilometer: ");
     scanf("%f",&l);
     printf("\nthe distance in the mile : %5.3f\n",(float)0.6214*l);
+ return 0;}
+ ----------------------------------------------------------
  /*Bài 5.2 */
+  #include<stdio.h>
+#include<limits.h>
+int main(){
  int x1,x2,x3;
  printf("enter 3 numbers x1 x2 x3: ");
  scanf("%d%d%d",&a,&b,&c);
@@ -17,15 +22,26 @@ int main(){
  if(x1<=x2q&&x1<=x3){
  printf("a is the smallest!\n");
  }
+  return 0;}
+  ----------------------------------------------------------
+
  /*Bài 5.3*/
  
  
  /*BÀi 5.4*/
+   #include<stdio.h>
+#include<limits.h>
+int main(){
   int h =INT_MAX;
     printf("%d\n",h);
     printf("When integer overflow that occurs : %d\n",h+2);
-    
+   return 0;}
+     ----------------------------------------------------------
+
 /*Bài 5.5*/
+ #include<stdio.h>
+#include<limits.h>
+int main(){
     double a,b;
     printf("Enter two numbers : ");
     scanf("%f%f",&a,&b);
@@ -41,7 +57,13 @@ int main(){
             printf("b is greater than a\n");
         }
     }
+      return 0;}
+  ----------------------------------------------------------
+
     /*BÀi 5.6*/
+   #include<stdio.h>
+#include<limits.h>
+int main(){
     int n;
     printf("Enter the number of students: ");
     scanf("%d",&n);if(n%7==0){
