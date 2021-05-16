@@ -19,8 +19,8 @@ int main(){
  printf("x1=x3\n");
   
  }
- if(x1<=x2q&&x1<=x3){
- printf("a is the smallest!\n");
+ if(x1<=x2&&x1<=x3){
+ printf("x1 is the smallest!\n");
  }
   return 0;}
   ----------------------------------------------------------
