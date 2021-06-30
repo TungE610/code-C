@@ -4,7 +4,6 @@
 //
 //  Created by bui danh tung on 30/03/2021.
 //
-/*có sự tham khảo code trên mạng*/
 #include <stdio.h>
 void Tower(int n , char a, char b, char c ){
     if(n==1){
